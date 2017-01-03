@@ -1,6 +1,5 @@
 require "spec_helper"
 
-
 describe "aggregate functions sql" do
   before do
     @db = SQLite3::Database.new(':memory:')
